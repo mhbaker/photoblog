@@ -1,0 +1,133 @@
+.container {
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    grid-template-rows: 150px 900px 70px;
+    grid-template-areas:
+        "hd hd hd hd hd hd hd"
+        "sd main main main main main main"
+        "ft ft ft ft ft ft ft";
+    justify-content: center;
+}
+
+#box {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.top {
+    border: inset;
+    border-width: 10px;
+    border-radius: 10%;
+    grid-area: hd;
+    color: #aa4a30;
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: center;
+    background-color: #edcfa9;
+    font-family: 'Righteous', cursive;
+}
+
+.shutter {
+    background-color: #f1f3f8;
+    border-radius: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 60px 0 60px;
+    width: 13%;
+}
+
+.emtxt {
+    font-size: .3em;
+}
+
+.btn1 {
+    border: 2px;
+    border-color: #d57149;
+    border-radius: 10px;
+    color: black;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.bottom {
+    display: flex;
+    grid-area: ft;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #aa4a30;
+}
+
+.fa{
+
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.side {
+    display: grid;
+    grid-area: sd;
+    color: #7d0633;
+    background-color: #e89f71;
+    border: 4px;
+    border-color: #d57149;
+    justify-content: center;
+    align-content: flex-start;
+}
+
+.sidetitle {
+    font-size: 42px;
+}
+
+.eqlist {
+    font-size: 24px;
+    color: #31112c;
+}
+
+.main {
+    display: grid;
+    justify-content: center;
+    grid-area: main;
+    padding: 20px 40px 20px 40px;
+    background-color: #fbdcc4;
+    align-content: flex-start;
+}
+
+#mainimg{
+    display: inline-block;
+}

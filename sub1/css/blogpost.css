@@ -1,0 +1,146 @@
+.blogcntr {
+    display: grid;
+    grid-template-columns: 700px 100px 700px;
+    grid-template-rows: 200px 900px 70px;
+    grid-template-areas:
+        "bhd bhd bhd bhd"
+        "lt lt rt rt"
+        "bft bft bft bft";
+    justify-content: center;
+
+}
+
+#box {
+    display: flex;
+    width: auto;
+    justify-content: center;
+}
+
+.top {
+    border: inset;
+    border-width: 10px;
+    border-radius: 10%;
+    grid-area: bhd;
+    color: #aa4a30;
+    font-size: 3em;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: #edcfa9;
+    font-family: 'Righteous', cursive;
+}
+
+.shutter {
+    background-color: #f1f3f8;
+    border-radius: 80%;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 60px 0 60px;
+    width: 13%;
+}
+
+.emtxt {
+    font-size: .3em;
+}
+
+.btn1 {
+    border: 2px;
+    border-color: #d57149;
+    border-radius: 10px;
+    color: black;
+    padding: 10px 26px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.homebtn{
+  display: flex;
+  font-size: 28px;
+  margin-top: 20px;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.blogtitle{
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.blogtxt1{
+    display: grid;
+    grid-column-start: 1;
+    grid-row-start: 2;
+    align-items: center;
+    justify-content:center;
+    padding-top: 100px;
+}
+
+.blogtitle2{
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.blogtxt2{
+    display: grid;
+    grid-column-start: 3;
+    grid-row-start: 2;
+    align-items: center;
+    justify-content:center;
+    padding-top: 100px;
+
+}
+
+.bottom {
+    display: flex;
+    grid-area: ft;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #aa4a30;
+}
+
+.fa{
+
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
